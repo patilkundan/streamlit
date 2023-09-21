@@ -5,10 +5,10 @@ import streamlit as st
 import joblib  # Import joblib to load the model
 
 # Define the path to your model
-model_path = r"C:\Users\Kundan Patil\DS0522\Evaluation Phase- Batch DS0522\12\model.pkl"
+# model_path = r"C:\Users\Kundan Patil\DS0522\Evaluation Phase- Batch DS0522\12\model.pkl"
 
 # Load your model here
-model = joblib.load(model_path)
+model = joblib.load("model_path")
 
 # Streamlit app title
 st.title("Shopping Card Eligibility Prediction")
