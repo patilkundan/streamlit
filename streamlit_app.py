@@ -13,20 +13,7 @@ model = joblib.load("model.pkl")
 # Streamlit app title
 st.title("Shopping Card Eligibility Prediction")
 
-# Add LinkedIn and GitHub logos in one line at the top of the sidebar with center alignment
-st.sidebar.markdown(
-    """
-    <div style="display: flex; align-items: left; justify-content: left;">
-        <a href='https://www.linkedin.com/in/kundanpatilds/' target='_blank' style="margin-right: 5px;">
-            <img src='https://raw.githubusercontent.com/patilkundan/images/a324e86ac65c421634bc45eb8c057cdc7b453d3a/linkedin-svgrepo-com.svg' alt='LinkedIn' width='24'>
-        </a>
-        <a href='https://github.com/patilkundan?tab=repositories' target='_blank'>
-            <img src='https://raw.githubusercontent.com/patilkundan/images/421fe319d64da3b7bd4fd627b248299735085d47/github-142-svgrepo-com.svg' alt='GitHub' width='19'>
-        </a>
-    </div>
-    """,
-    unsafe_allow_html=True
-)
+
 
 # Sidebar with Additional information
 st.sidebar.title("About Project")
