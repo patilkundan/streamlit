@@ -18,6 +18,8 @@ st.title("Shopping Card Eligibility Prediction")
 st.sidebar.title("About Project")
 st.sidebar.markdown("**Objective:** Developed a ML Model for Retail Store Product Demand Forecasting and Shopping Card Eligibility.")
 st.sidebar.markdown("**Impact:** The predictive classification model revolutionized the company's shopping card acquisition strategy, significantly diminishing the need for labor-intensive customer outreach efforts. This shift led to substantial increases in both customer acquisition and retention rates, making a significant contribution to the company's overall growth and profitability")
+# Link to the full article
+st.sidebar.markdown("[Visit the full article](https://www.linkedin.com/pulse/revolutionizing-shopping-card-acquisition-ml-case-study-kundan-patil)")
 
 
 
@@ -45,4 +47,5 @@ if st.button("Predict"):
         st.error("Oh! Person is not eligible for a shopping card: 😥😢🛒❌ Don't worry! You can still keep shopping")
 
 # Center-align the author information at the bottom of the app
-st.markdown("<p style='text-align:center;'>@Author: Kundan Patil</p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align:center;'>@Author: Kundan Patil | <a href='https://www.linkedin.com/in/kundanpatilds/'>LinkedIn</a></p>", unsafe_allow_html=True)
+
