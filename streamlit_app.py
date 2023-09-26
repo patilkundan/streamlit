@@ -20,7 +20,7 @@ st.sidebar.markdown(
         <a href='https://www.linkedin.com/in/kundanpatilds/' target='_blank' style="margin-right: 5px;">
             <img src='https://raw.githubusercontent.com/patilkundan/images/a324e86ac65c421634bc45eb8c057cdc7b453d3a/linkedin-svgrepo-com.svg' alt='LinkedIn' width='24'>
         </a>
-        <a href='https://github.com/patilkundan?tab=repositories' target='_blank'>
+        <a href='https://github.com/patilkundan' target='_blank'>
             <img src='https://raw.githubusercontent.com/patilkundan/images/421fe319d64da3b7bd4fd627b248299735085d47/github-142-svgrepo-com.svg' alt='GitHub' width='19'>
         </a>
     </div>
